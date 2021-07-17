@@ -9,6 +9,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *infoLabel;
+
+- (IBAction)buttonPressed:(UIButton *)sender;
 
 @end
 

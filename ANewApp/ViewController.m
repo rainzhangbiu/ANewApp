@@ -19,4 +19,9 @@
 }
 
 
+- (IBAction)buttonPressed:(UIButton *)sender {
+    NSString *buttonTitle = [sender titleForState:UIControlStateNormal];
+    NSString *labelText = [NSString stringWithFormat:@"%@ was pressed", buttonTitle];
+    _infoLabel.text = labelText;
+}
 @end

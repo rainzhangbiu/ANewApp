@@ -14,6 +14,7 @@
 		D943102826A2BD380017C499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D943102726A2BD380017C499 /* Assets.xcassets */; };
 		D943102B26A2BD380017C499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D943102926A2BD380017C499 /* LaunchScreen.storyboard */; };
 		D943102E26A2BD380017C499 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D943102D26A2BD380017C499 /* main.m */; };
+		D9C7DB8A26A2D39E00B8DF9C /* LableController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C7DB8926A2D39E00B8DF9C /* LableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,9 @@
 		D943102A26A2BD380017C499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D943102C26A2BD380017C499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D943102D26A2BD380017C499 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9C7DB8626A2C7C100B8DF9C /* 枫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "枫.png"; sourceTree = "<group>"; };
+		D9C7DB8826A2D39E00B8DF9C /* LableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LableController.h; sourceTree = "<group>"; };
+		D9C7DB8926A2D39E00B8DF9C /* LableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 		D943101A26A2BD360017C499 /* ANewApp */ = {
 			isa = PBXGroup;
 			children = (
+				D9C7DB8326A2C76700B8DF9C /* resource */,
 				D943101B26A2BD360017C499 /* AppDelegate.h */,
 				D943101C26A2BD360017C499 /* AppDelegate.m */,
 				D943101E26A2BD360017C499 /* SceneDelegate.h */,
@@ -72,8 +77,18 @@
 				D943102926A2BD380017C499 /* LaunchScreen.storyboard */,
 				D943102C26A2BD380017C499 /* Info.plist */,
 				D943102D26A2BD380017C499 /* main.m */,
+				D9C7DB8826A2D39E00B8DF9C /* LableController.h */,
+				D9C7DB8926A2D39E00B8DF9C /* LableController.m */,
 			);
 			path = ANewApp;
+			sourceTree = "<group>";
+		};
+		D9C7DB8326A2C76700B8DF9C /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				D9C7DB8626A2C7C100B8DF9C /* 枫.png */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +163,7 @@
 				D943102326A2BD360017C499 /* ViewController.m in Sources */,
 				D943101D26A2BD360017C499 /* AppDelegate.m in Sources */,
 				D943102E26A2BD380017C499 /* main.m in Sources */,
+				D9C7DB8A26A2D39E00B8DF9C /* LableController.m in Sources */,
 				D943102026A2BD360017C499 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A7DGK22DKF;
 				INFOPLIST_FILE = ANewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A7DGK22DKF;
 				INFOPLIST_FILE = ANewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
